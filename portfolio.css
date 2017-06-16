@@ -1,0 +1,156 @@
+/*disable horizontal scroll to fix bug*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar { /*only works on Chrome-- find different way to hide scroll bar?*/
+    display: none; 
+}
+.stop-scrolling {
+	height= 100%;
+	overflow: hidden;
+}
+
+/*general formatting*/
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+h1 {
+	font-family: "Verdana";
+	font-weight: normal;
+	font-size: 55px;
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+h3 {
+	font-family: "Verdana";
+	font-weight: normal;
+	font-size: 55px;
+	text-align: center;
+	color: #333333;
+	margin:0;
+	padding:0;
+}
+/*nav general formats*/
+.center {
+	margin: 0;
+	auto;
+}
+.content{ 
+	margin:0;
+	auto;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+/*slide general formats*/
+.description {
+	font-family: "Verdana";
+	font-weight: normal;
+	font-size: 30px;
+	text-align: left;
+	margin: 50px auto;
+}
+.description-container, .art-container { 
+	auto; 
+	margin: 0;
+}
+.art {
+	margin: 0;
+	height: 900px;
+	background-size: 100%;
+}
+.description {
+	background-color: #fff;
+	color: #333333;
+	height: 400px;	
+	padding: 0 0 0 0;
+}
+/*formatting for individual portfolio slides*/
+#Slide1 {
+	background:url('./../Images/slide1.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+#Slide3 {
+	background:url('./../Images/slide2.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+#Slide5 {
+	background:url('./../Images/slide3.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+#Slide7 {
+	background:url('./../Images/slide4.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+#Slide9 {
+	background:url('./../Images/slide5.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+#Slide11 {
+	background:url('./../Images/slide6.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+#Slide13 {
+	background:url('./../Images/slide7.jpg') 0 no-repeat fixed;
+	background-size:100%;
+}
+/* formatting for popup full images*/
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid orange;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: orange; /* change to match final theme*/
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 4vh auto;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 5s ease-in-out;
+  position: relative;
+  background-image: url("./../Images/slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: orange;
+}
+.popup .close:hover {
+  color: blue;
+}
