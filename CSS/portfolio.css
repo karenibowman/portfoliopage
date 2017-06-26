@@ -72,31 +72,31 @@ h3 {
 }
 /*formatting for individual portfolio slides*/
 #Slide1 {
-	background:url('./../Images/slide1.jpg') 0 no-repeat fixed;
+	background:url('./../slide1.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 #Slide3 {
-	background:url('./../Images/slide2.jpg') 0 no-repeat fixed;
+	background:url('./../slide2.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 #Slide5 {
-	background:url('./../Images/slide3.jpg') 0 no-repeat fixed;
+	background:url('./../slide3.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 #Slide7 {
-	background:url('./../Images/slide4.jpg') 0 no-repeat fixed;
+	background:url('./../slide4.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 #Slide9 {
-	background:url('./../Images/slide5.jpg') 0 no-repeat fixed;
+	background:url('./../slide5.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 #Slide11 {
-	background:url('./../Images/slide6.jpg') 0 no-repeat fixed;
+	background:url('./../slide6.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 #Slide13 {
-	background:url('./../Images/slide7.jpg') 0 no-repeat fixed;
+	background:url('./../slide7.jpg') 0 no-repeat fixed;
 	background-size:100%;
 }
 /* formatting for popup full images*/
