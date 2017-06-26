@@ -103,8 +103,9 @@ h3 {
 /* formatting for popup full images*/
 .button {
   font-size: 1em;
-  padding: 10px;
-  color: #9dd9a6;
+  padding: auto;
+  color: #fff;
+  background: #9dd9a6
   border: 2px solid #3cadab;
   border-radius: 20px/50px;
   text-decoration: none;
