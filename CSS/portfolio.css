@@ -16,7 +16,6 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	backgroud: #567b85;
 }
 h1 {
 	font-family: "Verdana";
@@ -112,6 +111,7 @@ h3 {
   border-color: #3cadab;
   border-radius: 20px/50px;
   transition: all 0.3s ease-out;
+  text-decoration: none;
 }
 
 .button:hover {
