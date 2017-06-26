@@ -16,6 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	backgroud: #567b85;
 }
 h1 {
 	font-family: "Verdana";
@@ -43,7 +44,7 @@ h3 {
 	margin:0;
 	auto;
 	width: 100%;
-	background-color: #E6EFC2;
+	background-color: #5b5150;
 }
 .clear {
 	clear: both;
