@@ -4,7 +4,7 @@ html, body {
     overflow-x: hidden;
 }
 ::-webkit-scrollbar { /*only works on Chrome-- find different way to hide scroll bar?*/
-    display: none; 
+    display: none;
 }
 .stop-scrolling {
 	height= 100%;
@@ -16,6 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+  background-color: #9FD7AA;
 }
 h1 {
 	font-family: "Verdana";
@@ -30,20 +31,23 @@ h3 {
 	font-weight: normal;
 	font-size: 55px;
 	text-align: center;
-	color: #333333;
+	color: #E6EFC2;
 	margin:0;
-	padding:0;
+	padding: 6%;
 }
 /*nav general formats*/
 .center {
 	margin: 0;
 	auto;
 }
-.content{ 
+.content{
 	margin:0;
 	auto;
 	width: 100%;
-	background-color: #5b5150;
+	background-color: #5B524D;
+  border-style:solid;
+  border-width: 30px 30px 0 0px;
+  border-color: #34B1A7;
 }
 .clear {
 	clear: both;
@@ -54,10 +58,10 @@ h3 {
 	font-weight: normal;
 	font-size: 30px;
 	text-align: left;
-	margin: 50px auto;
+	margin: auto;
 }
-.description-container, .art-container { 
-	auto; 
+.description-container, .art-container {
+	auto;
 	margin: 0;
 }
 .art {
@@ -66,10 +70,17 @@ h3 {
 	background-size: 100%;
 }
 .description {
-	background-color: #E6EFC2;
+	background-color: #567b85;
 	color: #333333;
-	height: 400px;	
+	height: 450px;
 	padding: 0 0 0 0;
+}
+.description-container{
+  text-align: center;
+  height: 360px;
+  border-width: 30px 0 0 0;
+  border-style: solid;
+  border-color: #537D84;
 }
 /*formatting for individual portfolio slides*/
 #Slide1 {
@@ -103,19 +114,21 @@ h3 {
 /* formatting for popup full images*/
 .button {
   font-size: 1em;
-  color: #fff;
-  padding: 10px 5px;
-  background: #9dd9a6;
+  color: #E6EFC2;
+  padding: 10px 15px;
+  background: 	#5B5150;
   border-style: solid;
   border-width: 5px;
-  border-color: #3cadab;
-  border-radius: 20px/50px;
+  border-color: #E6EFC2;
+  border-radius: 12px;
   transition: all 0.3s ease-out;
   text-decoration: none;
 }
 
 .button:hover {
-  background: #567b85; /* change to match final theme*/
+  background: #E6EFC2; /* change to match final theme*/
+  color: #567b85;
+  border-color: #E6EFC2;
 }
 .overlay {
   position: fixed;
